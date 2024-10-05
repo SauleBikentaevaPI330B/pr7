@@ -1,0 +1,5 @@
+dec_num = int(input("Введите десятичное число: "))
+bi_num = bin(dec_num)
+oct_num = oct(dec_num)
+print(f"Двоичное представление: {bi_num[2:]}")
+print(f"Восьмеричное представление: {oct_num[2:]}")
